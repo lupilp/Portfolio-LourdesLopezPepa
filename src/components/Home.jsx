@@ -3,6 +3,7 @@ import style from "../style/Home.module.css";
 import foto from "../images/foto.jpg";
 import SobreMi from "./SobreMi";
 import HomeCont from "./HomeCont";
+import Proyectos from "./Proyectos";
 
 function Home() {
   return (
@@ -16,7 +17,10 @@ function Home() {
           <a href="#sobreMi" className={style.item}>
             Sobre Mi
           </a>
-          <div className={style.item}>Mis Proyectos</div>
+
+          <a href="#proyectos" className={style.item}>
+            <div className={style.item}>Mis Proyectos</div>
+          </a>
           <div className={style.item}>Contacto</div>
         </div>
       </div>
@@ -28,6 +32,10 @@ function Home() {
 
         <section id="sobreMi">
           <SobreMi></SobreMi>
+        </section>
+
+        <section id="proyectos">
+          <Proyectos></Proyectos>
         </section>
       </div>
     </div>

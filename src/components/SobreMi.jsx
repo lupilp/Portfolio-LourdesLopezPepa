@@ -102,8 +102,6 @@ function SobreMi() {
           </li>
         </ul>
       </div>
-
-      <hr />
     </div>
   );
 }

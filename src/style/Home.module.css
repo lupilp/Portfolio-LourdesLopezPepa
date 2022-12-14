@@ -1,6 +1,19 @@
 .contGeneral {
   padding-left: 25%;
-  /* padding-block: 10rem; */
+  overflow: auto;
+  height: 90vh;
+  scroll-behavior: smooth;
+}
+
+.contGeneral::-webkit-scrollbar {
+  border-radius: 1px;
+  background-color: #f6cbce;
+  width: 10px;
+  border-radius: 10px;
+}
+
+.contGeneral::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.721);
 }
 
 .foto {
@@ -50,8 +63,4 @@
 
 .contenedor {
   padding-inline: 8rem;
-}
-
-html {
-  scroll-behavior: smooth;
 }
