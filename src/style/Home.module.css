@@ -1,4 +1,38 @@
+.contGeneral {
+  height: 95vh;
+}
+
 .foto {
-  width: 10%;
-  border-radius: 30px;
+  width: 70%;
+  border-radius: 150px;
+  margin: 1rem;
+}
+
+.todosItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.item {
+  background-color: #c287e6;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 25px;
+  width: 70%;
+  font-weight: 800;
+  color: #f7f7ff;
+}
+
+.contMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #caa3e1;
+  height: 100%;
+  width: 30%;
+  border-radius: 50px;
 }

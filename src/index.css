@@ -8,10 +8,10 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   list-style: none;
   text-decoration: none;
   border: none;
   outline: none;
-  height: 100vh;
+  height: 90vh;
 }
