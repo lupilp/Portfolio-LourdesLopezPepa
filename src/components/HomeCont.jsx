@@ -3,7 +3,7 @@ import style from "../style/HomeCont.module.css";
 
 function HomeCont() {
   return (
-    <div>
+    <div className={style.contGeneral}>
       <div className={style.contInfo}>
         <div className={style.hola}>
           <img

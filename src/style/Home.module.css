@@ -1,5 +1,6 @@
 .contGeneral {
   padding-left: 25%;
+  /* padding-block: 10rem; */
 }
 
 .foto {
@@ -49,4 +50,8 @@
 
 .contenedor {
   padding-inline: 8rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
