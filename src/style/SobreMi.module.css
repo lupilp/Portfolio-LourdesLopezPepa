@@ -1,0 +1,100 @@
+.contGeneral {
+  margin-top: 12rem;
+  color: #363636;
+  margin-bottom: 10rem;
+}
+
+.contEducación {
+  display: flex;
+  gap: 10rem;
+  height: 50%;
+}
+
+.educación {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.edText {
+  font-size: 30px;
+  font-weight: 600;
+  padding-block: 3rem;
+}
+
+.edTitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.institucion {
+  font-weight: 500;
+}
+
+.fecha {
+  background-color: #f6cbce;
+  width: fit-content;
+  padding-inline: 1rem;
+  border-radius: 20px;
+  color: #f7f7ff;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.icon {
+  background-color: #caa3e1;
+  color: #f7f7ff;
+  border-radius: 50px;
+  font-size: 30px;
+  padding: 0.7rem;
+}
+
+.der {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.hr {
+  width: 750px;
+  height: 0px;
+  border: 1px solid #f6cbce;
+}
+
+.skillsTag {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  color: #f7f7ff;
+  font-weight: 500;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.skillsItem {
+  background-color: #caa3e1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  padding-inline: 1rem;
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+
+.skillsItem:hover {
+  background-color: #f6cbce;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0px 10px #f6cbce;
+  transition: all 0.2s ease;
+}
+
+.skillsIcon {
+  font-size: 22px;
+}
+
+.contSkills {
+  height: 50%;
+  margin-bottom: 10rem;
+}

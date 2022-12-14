@@ -1,0 +1,39 @@
+.contInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  color: #363636;
+  margin-top: 10rem;
+}
+
+.hola {
+  font-size: 44px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.dev {
+  background-color: #f6cbce;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-size: 22px;
+  padding-inline: 2rem;
+  font-weight: 600;
+  color: #f7f7ff;
+  width: fit-content;
+}
+
+.description {
+  width: 30rem;
+  font-weight: 500;
+}
+
+.gif {
+  height: 3rem;
+}

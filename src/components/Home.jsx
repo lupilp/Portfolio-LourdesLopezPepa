@@ -1,6 +1,8 @@
 import React from "react";
 import style from "../style/Home.module.css";
 import foto from "../images/foto.jpg";
+import SobreMi from "./SobreMi";
+import HomeCont from "./HomeCont";
 
 function Home() {
   return (
@@ -8,29 +10,25 @@ function Home() {
       <div className={style.contMenu}>
         <img src={foto} alt="foto-perfil" className={style.foto} />
         <div className={style.todosItems}>
-          <div className={style.item}>Home</div>
-          <div className={style.item}>Sobre Mi</div>
+          <a href="#home" className={style.item}>
+            Home
+          </a>
+          <a href="#sobreMi" className={style.item}>
+            Sobre Mi
+          </a>
           <div className={style.item}>Mis Proyectos</div>
           <div className={style.item}>Contacto</div>
         </div>
       </div>
 
-      <div className={style.contInfo}>
-        <div className={style.hola}>
-          <img
-            src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-            alt="gif"
-            className={style.gif}
-          />
-          ¡Hola!{" "}
-        </div>
-        <div className={style.name}>Soy Lourdes López Pepa</div>
-        <div className={style.dev}>Full Stack Developer</div>
-        <div className={style.description}>
-          Full Stack Developer con formación como Diseñadora Gráfica. Con
-          pensamiento creativo, resolución de problemas, trabajo en equipo,
-          comunicación y autonomía.
-        </div>
+      <div className={style.contenedor}>
+        <section id="home">
+          <HomeCont></HomeCont>
+        </section>
+
+        <section id="sobreMi">
+          <SobreMi></SobreMi>
+        </section>
       </div>
     </div>
   );
