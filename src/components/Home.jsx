@@ -19,7 +19,7 @@ function Home() {
           </a>
 
           <a href="#proyectos" className={style.item}>
-            <div className={style.item}>Mis Proyectos</div>
+            Mis Proyectos
           </a>
           <div className={style.item}>Contacto</div>
         </div>
