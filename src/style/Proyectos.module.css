@@ -1,0 +1,64 @@
+.edText {
+  font-size: 30px;
+  font-weight: 600;
+  padding-block: 3rem;
+}
+
+.contGeneral {
+  margin-top: 12rem;
+  color: #363636;
+  margin-bottom: 10rem;
+}
+
+.img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contImagen {
+  transition: 0.2s;
+}
+
+.contImagen:hover {
+  background-position-y: -20px;
+}
+
+.contProyecto {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.icon {
+  color: #f7f7ff;
+  font-size: 30px;
+}
+
+.iconos {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: #caa3e1;
+  width: fit-content;
+  padding: 0.2rem;
+  border-radius: 20px;
+  padding-right: 1rem;
+  color: #f7f7ff;
+}
+
+.iconos:hover {
+  background-color: #f6cbce;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0px 10px #f6cbce;
+  transition: all 0.2s ease;
+}
