@@ -14,6 +14,7 @@ function HomeCont() {
           ¡Hola!{" "}
         </div>
         <div className={style.name}>Soy Lourdes López Pepa</div>
+
         <div className={style.dev}>Full Stack Developer</div>
         <div className={style.description}>
           Full Stack Developer con formación como Diseñadora Gráfica. Con
