@@ -50,4 +50,12 @@ input[type="submit"] {
   color: white;
   border: none;
   background: #caa3e1;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #f6cbce;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0px 10px #f6cbce;
+  transition: all 0.2s ease;
 }
