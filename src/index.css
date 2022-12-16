@@ -15,3 +15,9 @@ body {
   outline: none;
   height: 90vh;
 }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}

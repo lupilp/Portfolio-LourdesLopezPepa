@@ -13,7 +13,6 @@ import {
 } from "react-icons/di";
 
 import { SiRedux, SiSequelize, SiExpress, SiFigma } from "react-icons/si";
-import { BiChevronDown } from "react-icons/bi";
 
 function SobreMi() {
   return (
