@@ -1,0 +1,34 @@
+.container {
+  overflow: hidden;
+  position: relative;
+  height: calc(22px + 1.5rem);
+  background: #f6cbce;
+  width: calc(23ch + 3rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.strings {
+  position: absolute;
+  animation: fadeInOut 3s ease-in-out forwards infinite;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+@keyframes fadeInOut {
+  0% {
+    transform: translateY(-100%);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

@@ -1,7 +1,10 @@
 import React from "react";
 import style from "../style/HomeCont.module.css";
+import Carousel from "./Carousel";
 
 function HomeCont() {
+  const strings = ["Full Stack Developer", "Graphic Designer"];
+
   return (
     <div className={style.contGeneral}>
       <div className={style.contInfo}>
@@ -15,8 +18,9 @@ function HomeCont() {
         </div>
         <div className={style.name}>Soy Lourdes López Pepa</div>
         <div class="notranslate">
-          <div className={style.dev}>Full Stack Developer</div>
+          <Carousel strings={strings} interval={3000} />
         </div>
+
         <div className={style.description}>
           Full Stack Developer con formación como Diseñadora Gráfica. Con
           pensamiento creativo, resolución de problemas, trabajo en equipo,
