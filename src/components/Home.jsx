@@ -4,6 +4,7 @@ import foto from "../images/foto.jpg";
 import SobreMi from "./SobreMi";
 import HomeCont from "./HomeCont";
 import Proyectos from "./Proyectos";
+import Contacto from "./Contacto";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
           <a href="#home" className={style.item}>
             Home
           </a>
+
           <a href="#sobreMi" className={style.item}>
             Sobre Mi
           </a>
@@ -21,7 +23,10 @@ function Home() {
           <a href="#proyectos" className={style.item}>
             Mis Proyectos
           </a>
-          <div className={style.item}>Contacto</div>
+
+          <a href="#contacto" className={style.item}>
+            Contacto
+          </a>
         </div>
       </div>
 
@@ -36,6 +41,10 @@ function Home() {
 
         <section id="proyectos">
           <Proyectos></Proyectos>
+        </section>
+
+        <section id="contacto">
+          <Contacto></Contacto>
         </section>
       </div>
     </div>
