@@ -1,7 +1,7 @@
 .contGeneral {
   padding-left: 25%;
   overflow: auto;
-  height: 90vh;
+  height: 95vh;
   scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@
 
 .foto {
   width: 70%;
-  border-radius: 150px;
+  border-radius: 1000px;
   margin: 1rem;
   margin-block: 3rem;
 }

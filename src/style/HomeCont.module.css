@@ -1,3 +1,9 @@
+.contGeneral {
+  margin-top: 12rem;
+  color: #363636;
+  margin-bottom: 10rem;
+}
+
 .contInfo {
   display: flex;
   flex-direction: column;
@@ -8,15 +14,17 @@
 }
 
 .hola {
-  font-size: 44px;
+  font-size: clamp(1.8rem, 2.8vw, 2.8rem);
   font-weight: 700;
   display: flex;
   align-items: center;
 }
 
 .name {
+  font-size: clamp(1.25rem, 2.2vw, 3rem);
   font-size: 40px;
   font-weight: 600;
+  line-height: normal;
 }
 
 .dev {
