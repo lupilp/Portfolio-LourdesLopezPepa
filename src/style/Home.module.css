@@ -14,6 +14,7 @@
 
 .contGeneral::-webkit-scrollbar-thumb {
   background-color: #f3b5ba;
+  border-radius: 10px;
 }
 
 .foto {
@@ -51,7 +52,7 @@
   transition: all 0.2s ease;
 }
 
-.contMenu {
+.menuAbierto {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,4 +68,39 @@
 
 .contenedor {
   padding-inline: 8rem;
+}
+
+@media (max-width: 425px) {
+  .contGeneral {
+    position: relative;
+    padding: 0;
+  }
+
+  .menuAbierto {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+  }
+
+  .menuCerrado {
+    height: auto;
+    width: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .contenedor {
+    padding: 0;
+  }
+
+  .contGeneral::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .contGeneral::-webkit-scrollbar-thumb {
+    width: 0;
+  }
 }

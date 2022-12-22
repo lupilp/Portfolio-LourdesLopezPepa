@@ -1,6 +1,5 @@
 .container {
   overflow: hidden;
-  position: relative;
   height: calc(2vh + 2.4rem);
   background: #f6cbce;
   width: calc(23ch + 22vh);
@@ -12,7 +11,6 @@
 }
 
 .strings {
-  position: absolute;
   animation: fadeInOut 3s ease-in-out forwards infinite;
   font-size: clamp(1rem, 1.9vw, 3rem);
   font-weight: 600;
@@ -31,5 +29,16 @@
   }
   100% {
     transform: translateY(100%);
+  }
+}
+
+@media (max-width: 425px) {
+  .strings {
+    animation: 3s ease-in-out forwards infinite;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
   }
 }

@@ -99,3 +99,27 @@
   height: 50%;
   margin-bottom: 10rem;
 }
+
+@media (max-width: 425px) {
+  .hr {
+    width: 100%;
+  }
+
+  .contEducación {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .edText {
+    text-align: center;
+  }
+
+  .contGeneral {
+    margin: auto;
+  }
+
+  .skillsTag {
+    justify-content: center;
+  }
+}

@@ -114,3 +114,13 @@
   transition: all 400ms ease-out;
   margin-top: 30px;
 }
+
+@media (max-width: 425px) {
+  .edText {
+    text-align: center;
+  }
+
+  .contProyecto {
+    width: auto;
+  }
+}
