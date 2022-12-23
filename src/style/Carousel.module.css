@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 583px) {
   .strings {
     animation: 3s ease-in-out forwards infinite;
   }

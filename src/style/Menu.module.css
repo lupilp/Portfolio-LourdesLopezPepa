@@ -1,0 +1,95 @@
+.foto {
+  width: 70%;
+  border-radius: 1000px;
+  margin: 1rem;
+  margin-block: 3rem;
+  box-shadow: 0 0px 10px #f6cbce;
+}
+
+.todosItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+}
+
+.item {
+  background-color: #c287e6;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 25px;
+  width: 70%;
+  font-weight: 700;
+  color: #f7f7ff;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #f6cbce;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0px 10px #f6cbce;
+  transition: all 0.2s ease;
+}
+
+.menuAbierto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.menuCerrado {
+  display: none;
+}
+
+.contAbierto {
+  background-color: #caa3e1;
+  height: calc(100% - 2rem);
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+  width: 25%;
+  position: fixed;
+  z-index: 9;
+}
+
+.contCerrado {
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.buttonClose {
+  /* font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out; */
+  display: none;
+}
+
+.buttonRotate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 583px) {
+  .buttonClose {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    display: contents;
+  }
+
+  .contAbierto {
+    width: 90%;
+    height: max-content;
+  }
+}

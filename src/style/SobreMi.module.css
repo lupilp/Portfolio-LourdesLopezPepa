@@ -100,7 +100,7 @@
   margin-bottom: 10rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 583px) {
   .hr {
     width: 100%;
   }
