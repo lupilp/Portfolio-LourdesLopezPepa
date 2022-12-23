@@ -4,7 +4,7 @@ import foto from "../images/foto.jpg";
 import style from "../style/Menu.module.css";
 
 function Menu() {
-  const [isOpen, setisOpen] = useState(false);
+  const [isOpen, setisOpen] = useState(true);
 
   const handleClick = () => {
     setisOpen(!isOpen);
